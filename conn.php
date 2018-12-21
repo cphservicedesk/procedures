@@ -1,8 +1,8 @@
 <?php
 	$servername = "localhost";
-	$username = "readonly";
-	$password = "readonly";
-	$dbname = "life_cycle_cost";
+	$username = "NIGRUN";
+	$password = "NIGRUN";
+	$dbname = "NIGRUN";
 
 	$connection = mysqli_connect($servername, $username, $password, $dbname);
 	mysqli_set_charset($connection, "utf8");

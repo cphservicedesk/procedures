@@ -4,7 +4,7 @@ include "conn.php";
 
 if (!empty($_POST)){
 	$stmt = mysqli_prepare($connection, "
-		INSERT INTO `life_cycle_cost`.`procedures`
+		INSERT INTO `NIGRUN`.`procedures`
 		(`id_1`,
 		`id_2`,
 		`id_3`,
